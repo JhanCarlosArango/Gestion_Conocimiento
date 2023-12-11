@@ -1,0 +1,60 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 10/12/2023, 8:53:15 p. m.
+    Author     : parko
+*/
+
+.container {
+    text-align: center;
+}
+.button-container button {
+    margin: 5px;
+    font-size: 16px; /* Ajusta el tamaño del texto del botón */
+    padding: 10px 10px; /* Ajusta el padding del botón para hacerlo más grande */
+}
+.table-container {
+    overflow: auto;
+    max-height: 300px;
+    margin-top: 10px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.table th, .table td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+.button-container {
+    margin-top: 10px;
+}
+
+.button-container button {
+    margin: 5px;
+}
+
+/* Agrega un estilo para ocultar los divs */
+.table-div {
+    display: none;
+}
+
+/* Estilos para reducir el tamaño de los elementos del formulario */
+form input {
+    margin: 0 auto;
+    max-width: 300px; 
+    max-height: 50px; 
+   
+    margin-bottom: 5px;
+}
